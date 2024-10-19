@@ -1,0 +1,45 @@
+     /* Basic styling for demonstration */
+     .cart-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+    .quantity-controls {
+        display: flex;
+        align-items: center;
+        margin: 0 15px;
+    }
+    .quantity-btn {
+        padding: 5px 10px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    .delete-btn, .like-btn {
+        cursor: pointer;
+        padding: 5px 10px;
+        margin-left: 10px;
+    }
+    .like-btn.liked {
+        color: red;
+    }
+    .item-image {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        margin-right: 15px;
+    }
+#total{
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn3{
+    border: 0px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
